@@ -22,8 +22,7 @@
             "url": "https://github.com/shreenu/yii2-usermanagement.git"
         }
     ],
-    "minimum-stability": "dev",
-    "prefer-stable": true,
+    "minimum-stability": "stable",
     "require": {
         "yiisoft/yii2": "*"
     },
