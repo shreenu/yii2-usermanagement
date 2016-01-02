@@ -1,14 +1,10 @@
 {
     "name": "shreenu/yii2-usermanagement",
-    "description": "Yii2 User Management with RBAC",
+    "description": "yii2 user management",
     "type": "yii2-extension",
-    "keywords": [
-        "yii2",
-        "extension",
-        "user management",
-        "RBAC",
-        "roles"
-    ],
+    "require": {
+        "yiisoft/yii2": "^2.0"
+    },
     "license": "MIT",
     "authors": [
         {
@@ -16,20 +12,5 @@
             "email": "mr.shreenu21@gmail.com"
         }
     ],
-    "repositories":[
-        {
-            "type": "git",
-            "url": "https://github.com/shreenu/yii2-usermanagement.git"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {
-        "php": ">=5.4.0",
-        "yiisoft/yii2": "*"
-    },
-    "autoload": {
-        "psr-4": {
-            "shreenu\\usermanagement\\": ""
-        }
-    }
+    "minimum-stability": "dev"
 }
